@@ -1,0 +1,78 @@
+/* Base simples */
+body { font-family: Arial, sans-serif; margin: 0; color: #FA8072; line-height: 2.0; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Layout */
+.container { max-width: 900px; margin: 0 auto; padding: 12px 16px; }
+
+/* Topo e navegação */
+.brand { font-weight: bold; color: #483D8B; text-decoration: none; margin-right: 12px; }
+nav a { color: #483D8B; text-decoration: none; margin-right: 12px; }
+nav a:hover { text-decoration: underline; }
+nav a.active { font-weight: 700; text-decoration: underline; }
+
+/* Conteúdo */
+main .container { padding: 16px; }
+section { margin: 24px 0; }
+h1, h2 { margin: 0 0 8px; }
+p { margin: 0 0 12px; }
+
+/* Imagem com borda e legenda */
+.foto { width: 360px; 
+    border: 1px solid #2F4F4F; 
+    border-radius: 8px; 
+    padding: 6px; 
+    background: #2F4F4F }
+figcaption { color: #2F4F4F; font-size: 0.9rem; margin-top: 6px; }
+
+/* Rodapé */
+footer .container { padding: 12px 16px; }
+
+/* ===== Tabela estilizada (simples) ===== */
+.table-card {
+  max-width: 900px;          /* limita a largura do bloco */
+  margin: 16px auto;         /* centraliza */
+  background: #2F4F4F;          /* fundo branco */
+  border: 1px solid #2F4F4F; /* borda suave */
+  border-radius: 10px;       /* cantos arredondados */
+  padding: 12px;             /* espaço interno */
+  overflow-x: auto;          /* scroll horizontal em telas estreitas */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* bordas “grudadas” */
+  background: #2F4F4F;
+}
+
+caption {
+  caption-side: top;         /* título acima da tabela */
+  text-align: left;
+  font-weight: 600;
+  color: #483D8B;
+  padding: 6px 2px 10px;
+}
+
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #2F4F4F;
+}
+
+thead th {
+  background: #2F4F4F;       /* cabeçalho com leve destaque */
+  color: #2F4F4F;
+  font-weight: 700;
+}
+
+tbody tr:nth-child(even) {    /* listras (zebra) */
+  background: #2F4F4F;
+}
+
+tbody tr:hover {              /* destaque no hover */
+  background: #2F4F4F;
+}
+
+tbody tr:last-child td {      /* acabamento na última linha */
+  border-bottom: none;
+}

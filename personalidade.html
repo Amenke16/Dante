@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste de Personalidade — Psicologia</title>
+  <link rel="stylesheet" href="css_ps.css">
+  <header>
+    <div class="container">
+      <a class="brand" href="personalidade.html"></a>
+      <nav aria-label="Teste de personalidade">
+        <a href="psicologia .html">inicio</a>
+        <a href="more.html">Pàgina secundària</a>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url("you3.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #FF6347;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: grid;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(0,0,0,0.7);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .question {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 15px;
+      align-items: center;
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .question h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .options label {
+      display: block;
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+
+    button {
+      padding: 12px;
+      background: #FF6347;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #e5533d;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      padding: 15px;
+      background: rgba(0,0,0,0.6);
+      border-radius: 10px;
+      font-size: 18px;
+      text-align: center;
+    }
+  </style>
+  <h1>Teste de Personalidade — Psicologia</h1>
+  <form id="quizForm">
+    <!-- Perguntas 1 a 10 -->
+    <div class="question">
+      <h3>1. Como você reage em situações de pressão?</h3>
+      <div class="options">
+        <label><input type="radio" name="q1" value="racional"> Mantenho a calma e penso racionalmente</label>
+        <label><input type="radio" name="q1" value="emocional"> Fico ansioso e ajo pelo impulso</label>
+        <label><input type="radio" name="q1" value="equilibrado"> Tento equilibrar emoção e razão</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>2. Quando precisa tomar uma decisão difícil, você...</h3>
+      <div class="options">
+        <label><input type="radio" name="q2" value="racional"> Analisa todas as opções e consequências</label>
+        <label><input type="radio" name="q2" value="emocional"> Decide pelo que “sente ser certo”</label>
+        <label><input type="radio" name="q2" value="equilibrado"> Considera dados e sentimentos igualmente</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>3. No convívio social, você se considera...</h3>
+      <div class="options">
+        <label><input type="radio" name="q3" value="racional"> Reservado e observador</label>
+        <label><input type="radio" name="q3" value="emocional"> Expressivo e comunicativo</label>
+        <label><input type="radio" name="q3" value="equilibrado"> Sociável, mas também sabe ouvir</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>4. Em relação a conflitos, você tende a...</h3>
+      <div class="options">
+        <label><input type="radio" name="q4" value="racional"> Analisar o problema de forma lógica</label>
+        <label><input type="radio" name="q4" value="emocional"> Se envolver emocionalmente</label>
+        <label><input type="radio" name="q4" value="equilibrado"> Buscar equilíbrio entre razão e sentimento</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>5. Ao estudar psicologia, você prefere...</h3>
+      <div class="options">
+        <label><input type="radio" name="q5" value="racional"> Teorias e modelos estruturados</label>
+        <label><input type="radio" name="q5" value="emocional"> Histórias de casos e experiências humanas</label>
+        <label><input type="radio" name="q5" value="equilibrado"> Uma mistura de teoria e prática</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>6. Quando alguém compartilha um problema, você...</h3>
+      <div class="options">
+        <label><input type="radio" name="q6" value="racional"> Oferece soluções práticas</label>
+        <label><input type="radio" name="q6" value="emocional"> Escuta e se conecta emocionalmente</label>
+        <label><input type="radio" name="q6" value="equilibrado"> Escuta e sugere soluções equilibradas</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>7. Em projetos criativos, você...</h3>
+      <div class="options">
+        <label><input type="radio" name="q7" value="racional"> Planeja tudo antes de começar</label>
+        <label><input type="radio" name="q7" value="emocional"> Se deixa guiar pela intuição e emoção</label>
+        <label><input type="radio" name="q7" value="equilibrado"> Planeja, mas adapta-se conforme necessário</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>8. Quando alguém discorda de você, você...</h3>
+      <div class="options">
+        <label><input type="radio" name="q8" value="racional"> Argumenta com lógica e fatos</label>
+        <label><input type="radio" name="q8" value="emocional"> Fica magoado ou defende com sentimento</label>
+        <label><input type="radio" name="q8" value="equilibrado"> Considera ambos os lados e tenta conciliar</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>9. Ao refletir sobre o comportamento humano, você foca em...</h3>
+      <div class="options">
+        <label><input type="radio" name="q9" value="racional"> Padrões e teorias científicas</label>
+        <label><input type="radio" name="q9" value="emocional"> Experiências e sentimentos</label>
+        <label><input type="radio" name="q9" value="equilibrado"> Combinação de ambos</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <h3>10. Seu método de aprendizado preferido é...</h3>
+      <div class="options">
+        <label><input type="radio" name="q10" value="racional"> Leitura e estudo estruturado</label>
+        <label><input type="radio" name="q10" value="emocional"> Experiências práticas e interação</label>
+        <label><input type="radio" name="q10" value="equilibrado"> Mistura de teoria e prática</label>
+      </div>
+    </div>
+
+    <button type="button" onclick="calcularResultado()">Enviar Respostas</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script>
+    function calcularResultado() {
+      const respostas = document.querySelectorAll('input[type="radio"]:checked');
+      if (respostas.length < 10) {
+        document.getElementById("resultado").innerText = "Por favor, responda todas as perguntas!";
+        return;
+      }
+
+      let contagem = { racional: 0, emocional: 0, equilibrado: 0 };
+      respostas.forEach(r => contagem[r.value]++);
+
+      let resultadoFinal = "";
+      if (contagem.racional > contagem.emocional && contagem.racional > contagem.equilibrado) {
+        resultadoFinal = "Sua personalidade tende a ser mais RACIONAL 🧠 — você valoriza lógica e análise.";
+      } else if (contagem.emocional > contagem.racional && contagem.emocional > contagem.equilibrado) {
+        resultadoFinal = "Sua personalidade tende a ser mais EMOCIONAL 💖 — você valoriza sentimentos e intuição.";
+      } else {
+        resultadoFinal = "Sua personalidade tende a ser EQUILIBRADA ⚖️ — você busca conciliar razão e emoção.";
+      }
+
+      document.getElementById("resultado").innerText = resultadoFinal;
+      document.getElementById("resultado").scrollIntoView({behavior:'smooth'});
+    }
+  </script>
+</body>
+</html>
